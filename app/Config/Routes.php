@@ -31,3 +31,5 @@ $routes->post('place-order', 'OrderController::placeOrder');
 //routing for authentication 
 $routes->get('register', 'AuthController::register');
 $routes->post('register', 'AuthController::store');
+
+$routes->post('register', 'AuthController::store');
