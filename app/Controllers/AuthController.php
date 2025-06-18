@@ -24,4 +24,7 @@ class AuthController extends BaseController
         $userModel->insert($data);
         return redirect()->to('/login')->with('message', 'Registration successful. Please log in.');
     }
+
+    //rnadom function test for github
+    public function random() {}
 }
